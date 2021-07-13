@@ -28,25 +28,44 @@
 
 }
 
+.bottomSection{
+    background-color: #dedede;
+    padding: 10px;
+}
+
+.setproxybid > * {
+    margin: 0.2em
+}
+
 .child22{
     display: inline-flex;
 
 }
-
+.setproxybid{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 0.2em; */
+}
 .margin{
     margin-right: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bluebox{
     color: white;
     background-color: blue;
-    margin: 3px 30px;
+    /* margin: 3px 30px; */
+    margin-top: 1em;
     border-radius: 2px;
 }
 
 .child23{
     text-align:center;
     line-height: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -61,21 +80,28 @@
 
 .secondSection{
     display:flex;
+    background-color: white;
     flex-direction: column;
     margin-top: 10px;
-    border: 1px solid rgb(218, 218, 218);
-    border-radius: 6px;
+    /* border: 1px solid rgb(218, 218, 218); */
+    /* border-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    /* border-top-left-radius: 10px; */
 }
 
 .Overview{
     background-color: blue;
     padding-left: 15px;
+    border-top-right-radius: 10px;
+    color: white;
+    border-top-left-radius: 10px;
 }
 
 .details{
     display:inline-flex;
     padding: 15px;
     line-height: 20px;
+    flex-wrap: wrap;
 }
 
 .column1{
